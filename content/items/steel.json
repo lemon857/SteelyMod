@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Сталь",
+  "description": "-",
+  "cost": 1,
+  "color": "303030",
+  "tier": 2,
+  "alwaysUnlocked": false,
+  "explosiveness": 0.01,
+  "flammability": 0.0,
+  "radioactivity": 0.0
+}

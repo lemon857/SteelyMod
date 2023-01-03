@@ -1,0 +1,88 @@
+{
+  "type": "itemTurret",
+  "name": "Импульсная турель",
+  "description": "Хорошая снйперская турель",
+  "health": 800,
+  "size": 4,
+  "recoil": 6,
+  "reload": 10,
+  "range": 500,
+  "ammoUseEffect": "none",
+  "inaccuracy": 0,
+  "rotatespeed": 20,
+  "ammoTypes": {
+    "carbon-fiber": {
+      "speed": 100.0,
+      "damage": 500,
+      "reloadMultiplier": 0.5,
+      "ammoMultiplier": 3,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "width": 3,
+      "height": 9,
+      "backColor": "FFFFFF",
+      "frontColor": "FFFFFF",
+      "status": "shocked"
+    },
+    "steel": {
+      "speed": 15.0,
+      "damage": 100,
+      "reloadMultiplier": 0.9,
+      "ammoMultiplier": 3,
+      "fragBullets": 4,
+      "fragBukket": {
+        "damage": 20,
+        "speed": 4,
+        "lifetime": 200
+      },
+      "fragBulletRadius": 8,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "width": 3,
+      "height": 9,
+      "backColor": "AF8A69",
+      "frontColor": "ffdab9",
+      "status": "shocked"
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1200
+    },
+    {
+      "item": "titanium",
+      "amount": 700
+    },
+    {
+      "item": "steel",
+      "amount": 300
+    },
+    {
+      "item": "carbon",
+      "amount": 500
+    },
+    {
+      "item": "impulse-steel",
+      "amount": 200
+    }
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "swarmer",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1400
+      },
+      {
+        "item": "impulse-steel",
+        "amount": 300
+      },
+      {
+        "item": "steel",
+        "amount": 700
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "type": "GenericCrafter",
+  "name": "Плавильня импульсной стали",
+  "description": "Импульсная сталь? Тебе это нужно?...",
+  "health": 100,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1300
+    },
+    {
+      "item": "lead",
+      "amount": 800
+    },
+    {
+      "item": "titanium",
+      "amount": 250
+    },
+    {
+      "item": "iron",
+      "amount": 300
+    },
+    {
+      "item": "steel",
+      "amount": 200
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 150
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 100,
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {
+          "item": "steel",
+          "amount": 3
+        },
+        {
+          "item": "surge-alloy",
+          "amount": 3
+        },
+        {
+          "item": "titanium",
+          "amount": 3
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 0.25
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,
+  "outputItem": {
+    "item": "impulse-steel",
+    "amount": 1
+  },
+  "research": {
+    "parent": "foundry",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 4000
+      },
+      {
+        "item": "steel",
+        "amount": 1500
+      },
+      {
+        "item": "carbon",
+        "amount": 1000
+      },
+      {
+        "item": "surge-alloy",
+        "amount": 1000
+      }
+    ]
+  }
+}

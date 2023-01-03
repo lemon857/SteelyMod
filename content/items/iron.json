@@ -1,0 +1,13 @@
+{
+  "type": "material",
+  "name": "Железо",
+  "description": "-",
+  "hardness": 4,
+  "cost": 1,
+  "color": "A0A0A0",
+  "tier": 2,
+  "alwaysUnlocked": false,
+  "explosiveness": 0.0,
+  "flammability": 0.0,
+  "radioactivity": 0.0
+}

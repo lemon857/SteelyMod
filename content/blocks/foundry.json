@@ -1,0 +1,73 @@
+{
+  "type": "GenericCrafter",
+  "name": "Завод стали",
+  "description": "Просто сделай сталь",
+  "health": 200,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1000
+    },
+    {
+      "item": "iron",
+      "amount": 500
+    },
+    {
+      "item": "silicon",
+      "amount": 300
+    },
+    {
+      "item": "plastanium",
+      "amount": 100
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        {
+          "item": "iron",
+          "amount": 3
+        },
+        {
+          "item": "pyratite",
+          "amount": 5
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.1
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": {
+    "item": "steel",
+    "amount": 1
+  },
+  "research": {
+    "parent": "iron-smelter",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 2500
+      },
+      {
+        "item": "iron",
+        "amount": 2000
+      },
+      {
+        "item": "lead",
+        "amount": 3000
+      }
+    ]
+  }
+}

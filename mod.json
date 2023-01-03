@@ -1,0 +1,10 @@
+{
+  "name": "steely",
+  "displayName": "Steely",
+  "author": "[yellow]Lem0n[red]857",
+  "description": "This mod added in game steel, iron and carbon",
+  "version": "0.0.1",
+  "minGameVersion": "140.4",
+  "dependencies": [],
+  "hidden": false
+}

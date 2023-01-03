@@ -1,0 +1,112 @@
+{
+  "type": "itemTurret",
+  "name": "Углеродно-Стальная турель",
+  "description": "Хороший пулемёт",
+  "health": 600,
+  "size": 3,
+  "recoil": 6,
+  "reload": 5,
+  "range": 300,
+  "ammoUseEffect": "none",
+  "inaccuracy": 5,
+  "rotatespeed": 20,
+  "ammoTypes": {
+    "iron": {
+      "speed": 10.0,
+      "damage": 15,
+      "reloadMultiplier": 0.85,
+      "ammoMultiplier": 3,
+      "fragBullets": 4,
+      "fragBukket": {
+        "damage": 20,
+        "speed": 4,
+        "lifetime": 200
+      },
+      "fragBulletRadius": 8,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "width": 3,
+      "height": 9,
+      "backColor": "AF8A69",
+      "frontColor": "ffdab9"
+    },
+    "steel": {
+      "speed": 15.0,
+      "damage": 25,
+      "reloadMultiplier": 0.85,
+      "ammoMultiplier": 3,
+      "fragBullets": 4,
+      "fragBukket": {
+        "damage": 20,
+        "speed": 4,
+        "lifetime": 200
+      },
+      "fragBulletRadius": 8,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "width": 3,
+      "height": 9,
+      "backColor": "AF8A69",
+      "frontColor": "ffdab9"
+    },
+    "carbon": {
+      "speed": 30.0,
+      "damage": 40,
+      "reloadMultiplier": 0.85,
+      "ammoMultiplier": 3,
+      "fragBullets": 4,
+      "fragBukket": {
+        "damage": 20,
+        "speed": 4,
+        "lifetime": 200
+      },
+      "fragBulletRadius": 8,
+      "shootEffect": "shootSmall",
+      "smokeEffect": "shootSmallSmoke",
+      "width": 3,
+      "height": 9,
+      "backColor": "AF8A69",
+      "frontColor": "ffdab9"
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1000
+    },
+    {
+      "item": "titanium",
+      "amount": 500
+    },
+    {
+      "item": "steel",
+      "amount": 300
+    },
+    {
+      "item": "carbon",
+      "amount": 400
+    },
+    {
+      "item": "surge-alloy",
+      "amount": 200
+    }
+  ],
+  "category": "turret",
+  "research": {
+    "parent": "swarmer",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1400
+      },
+      {
+        "item": "carbon-fiber",
+        "amount": 500
+      },
+      {
+        "item": "steel",
+        "amount": 700
+      }
+    ]
+  }
+}

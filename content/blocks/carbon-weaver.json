@@ -1,0 +1,69 @@
+{
+  "type": "GenericCrafter",
+  "name": "Углеродный отделитель",
+  "description": "Просто сделай это",
+  "health": 100,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 550
+    },
+    {
+      "item": "lead",
+      "amount": 800
+    },
+    {
+      "item": "titanium",
+      "amount": 200
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        {
+          "item": "coal",
+          "amount": 5
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "slag",
+      "amount": 0.3
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": {
+    "item": "carbon",
+    "amount": 2
+  },
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.2
+  },
+  "research": {
+    "parent": "kiln",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1500
+      },
+      {
+        "item": "coal",
+        "amount": 1200
+      },
+      {
+        "item": "lead",
+        "amount": 1000
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Углерод",
+  "description": "-",
+  "cost": 1,
+  "color": "A0A0A0",
+  "tier": 2,
+  "alwaysUnlocked": false,
+  "explosiveness": 0.02,
+  "flammability": 0.0,
+  "radioactivity": 0.0
+}

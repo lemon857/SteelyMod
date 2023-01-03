@@ -1,0 +1,73 @@
+{
+  "type": "GenericCrafter",
+  "name": "Углеволоконный ткач",
+  "description": "Это поможет тебе создать углеволокно",
+  "health": 100,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 900
+    },
+    {
+      "item": "carbon",
+      "amount": 400
+    },
+    {
+      "item": "titanium",
+      "amount": 600
+    },
+    {
+      "item": "iron",
+      "amount": 600
+    }
+  ],
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 60,
+  "consumes": {
+    "power": 3,
+    "items": {
+      "items": [
+        {
+          "item": "phase-fabric",
+          "amount": 3
+        },
+        {
+          "item": "carbon",
+          "amount": 3
+        }
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 20,
+  "outputItem": {
+    "item": "carbon-fiber",
+    "amount": 2
+  },
+  "research": {
+    "parent": "phase-weaver",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1200
+      },
+      {
+        "item": "carbon",
+        "amount": 1000
+      },
+      {
+        "item": "lead",
+        "amount": 1000
+      },
+      {
+        "item": "iron",
+        "amount": 800
+      }
+    ]
+  }
+}

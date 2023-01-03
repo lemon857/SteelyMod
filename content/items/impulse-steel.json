@@ -1,0 +1,12 @@
+{
+  "type": "material",
+  "name": "Имульсная сталь",
+  "description": "Its alloy steel and surge alloy?!",
+  "cost": 1,
+  "color": "AF7F24",
+  "tier": 2,
+  "alwaysUnlocked": false,
+  "explosiveness": 0.05,
+  "flammability": 0.03,
+  "radioactivity": 0.01
+}
