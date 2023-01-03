@@ -2,9 +2,9 @@
   "name": "steely",
   "displayName": "Steely",
   "author": "[yellow]Lem0n[red]857",
-  "description": "This mod added in game steel, iron and carbon",
-  "version": "0.0.1",
-  "minGameVersion": "140.4",
+  "description": "Этот мод добавит сталь и немного того, что с ней связано",
+  "version": "0.0.2",
+  "minGameVersion": "140",
   "dependencies": [],
   "hidden": false
 }

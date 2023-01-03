@@ -1,32 +1,33 @@
 {
   "type": "itemTurret",
   "name": "Импульсная турель",
-  "description": "Хорошая снйперская турель",
-  "health": 800,
+  "description": "Хорошая снайперская турель",
+  "health": 1000,
   "size": 4,
-  "recoil": 6,
-  "reload": 10,
-  "range": 500,
+  "recoil": 15,
+  "reload": 35,
+  "range": 450,
   "ammoUseEffect": "none",
+  "shootSound": "shootBig",
   "inaccuracy": 0,
   "rotatespeed": 20,
   "ammoTypes": {
     "carbon-fiber": {
-      "speed": 100.0,
-      "damage": 500,
+      "speed": 50.0,
+      "damage": 100,
       "reloadMultiplier": 0.5,
       "ammoMultiplier": 3,
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
-      "width": 3,
-      "height": 9,
+      "width": 20,
+      "height": 29,
       "backColor": "FFFFFF",
       "frontColor": "FFFFFF",
-      "status": "shocked"
+      "status": "blasted"
     },
     "steel": {
       "speed": 15.0,
-      "damage": 100,
+      "damage": 50,
       "reloadMultiplier": 0.9,
       "ammoMultiplier": 3,
       "fragBullets": 4,
@@ -38,8 +39,8 @@
       "fragBulletRadius": 8,
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
-      "width": 3,
-      "height": 9,
+      "width": 15,
+      "height": 25,
       "backColor": "AF8A69",
       "frontColor": "ffdab9",
       "status": "shocked"
@@ -68,6 +69,16 @@
     }
   ],
   "category": "turret",
+  "hasLiquids": true,
+  "hasPower": true,
+  "consumes": {
+    "power": 2,
+    "liquid": {
+      "liquid": "cryofluid",
+      "update": true,
+      "amount": 0.1
+    }
+  },
   "research": {
     "parent": "swarmer",
     "requirements": [

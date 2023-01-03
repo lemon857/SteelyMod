@@ -1,0 +1,65 @@
+{
+  "type": "PowerTurret",
+  "name": "Двойная лазерная турель",
+  "description": "Просто турель",
+  "health": 400,
+  "size": 1,
+  "recoil": 5,
+  "reload": 50,
+  "cooldown": 10,
+  "range": 100,
+  "ammoUseEffect": "none",
+  "shootSound": "laserblast",
+  "inaccuracy": 0,
+  "rotatespeed": 20,
+  "shootType": {
+    "type": "LaserBulletType",
+    "hitEffect": "hitLancer",
+    "despawnEffect": "none",
+    "damage": 30,
+    "hitSize": 14,
+    "lifetime": 20,
+    "drawSize": 500,
+    "collidesAir": false
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 1200
+    },
+    {
+      "item": "titanium",
+      "amount": 700
+    },
+    {
+      "item": "thorium",
+      "amount": 300
+    },
+    {
+      "item": "carbon",
+      "amount": 500
+    }
+  ],
+  "category": "turret",
+  "hasPower": true,
+  "consumes": {
+    "power": 3
+  },
+  "research": {
+    "parent": "swarmer",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1400
+      },
+      {
+        "item": "thorium",
+        "amount": 300
+      },
+      {
+        "item": "steel",
+        "amount": 700
+      }
+    ]
+  }
+}
