@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Жлезный пресс",
-  "description": "Это поможет тебе создать углеволокно",
+  "description": "Это поможет тебе выплавить слиток железа",
   "health": 100,
   "size": 2,
   "requirements": [
@@ -14,12 +14,8 @@
       "amount": 100
     },
     {
-      "item": "titanium",
+      "item": "metaglass",
       "amount": 200
-    },
-    {
-      "item": "iron",
-      "amount": 256
     }
   ],
   "hasItems": true,
