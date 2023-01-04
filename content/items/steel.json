@@ -8,5 +8,6 @@
   "alwaysUnlocked": false,
   "explosiveness": 0.01,
   "flammability": 0.0,
-  "radioactivity": 0.0
+  "radioactivity": 0.0,
+  "research": "iron"
 }

@@ -1,12 +1,13 @@
 {
   "type": "material",
   "name": "Углеволокно",
-  "description": "What could be better than shooting carbon fiber...",
+  "description": "Что может быть лучше, чем стрелять углеволокном...",
   "cost": 1,
   "color": "303030",
   "tier": 2,
   "alwaysUnlocked": false,
   "explosiveness": 0.05,
   "flammability": 0.1,
-  "radioactivity": 0.0
+  "radioactivity": 0.0,
+  "research": "carbon"
 }

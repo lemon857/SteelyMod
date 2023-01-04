@@ -9,5 +9,6 @@
   "temperature": 0.8,
   "heatCapacity": 0.1,
   "viscosity": 0.6,
-  "explosiveness": 0
+  "explosiveness": 0,
+  "research": "carbon"
 }
