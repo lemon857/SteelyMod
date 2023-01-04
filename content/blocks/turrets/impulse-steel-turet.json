@@ -48,20 +48,16 @@
   },
   "requirements": [
     {
-      "item": "copper",
-      "amount": 1200
-    },
-    {
       "item": "titanium",
-      "amount": 700
-    },
-    {
-      "item": "steel",
       "amount": 300
     },
     {
-      "item": "carbon",
-      "amount": 500
+      "item": "steel",
+      "amount": 250
+    },
+    {
+      "item": "thorium",
+      "amount": 200
     },
     {
       "item": "impulse-steel",

@@ -7,15 +7,15 @@
   "requirements": [
     {
       "item": "copper",
-      "amount": 1000
+      "amount": 400
     },
     {
       "item": "iron",
-      "amount": 500
+      "amount": 150
     },
     {
       "item": "silicon",
-      "amount": 300
+      "amount": 50
     },
     {
       "item": "plastanium",

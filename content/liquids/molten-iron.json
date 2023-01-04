@@ -1,0 +1,13 @@
+{
+  "type": "liquid",
+  "name": "Расплавленное железо",
+  "description": "Железо в жидком виде которое лучше бы отлить в слитки",
+  "color": "808080",
+  "barColor": "808080",
+  "lightColor": "B56553",
+  "flammability": 0,
+  "temperature": 0.7,
+  "heatCapacity": 0.1,
+  "viscosity": 0.6,
+  "explosiveness": 0
+}

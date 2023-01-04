@@ -1,16 +1,16 @@
 {
   "type": "GenericCrafter",
-  "name": "РџР»Р°РІРёР»СЊРЅСЏ Р¶РµР»РµР·Р°",
-  "description": "РџСЂРѕРёР·РІРѕРґРЅС‚ Р¶РµР»РµР·Рѕ",
+  "name": "Жлезный пресс",
+  "description": "Это поможет тебе создать углеволокно",
   "health": 100,
   "size": 2,
   "requirements": [
     {
       "item": "copper",
-      "amount": 200
+      "amount": 250
     },
     {
-      "item": "lead",
+      "item": "carbon",
       "amount": 100
     },
     {
@@ -18,44 +18,42 @@
       "amount": 200
     },
     {
-      "item": "silicon",
-      "amount": 95
+      "item": "iron",
+      "amount": 256
     }
   ],
-  "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,
-  "craftTime": 80,
+  "craftTime": 120,
   "consumes": {
-    "power": 3,
-    "items": {
-      "items": [
+    "liquid": {
+      "liquids": [
         {
-          "item": "scrap",
-          "amount": 8
+          "liquid": "molten-iron",
+          "amount": 0.4
         },
         {
-          "item": "carbon",
-          "amount": 4
+          "liquid": "water",
+          "amount": 0.3
         }
       ]
     }
   },
-  "craftEffect": "melting",
+  "craftEffect": "smelt",
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputLiquid": {
-    "liquid": "molten-iron",
-    "amount": 0.2
+  "outputItem": {
+    "item": "iron",
+    "amount": 2
   },
   "research": {
-    "parent": "kiln",
+    "parent": "phase-weaver",
     "requirements": [
       {
         "item": "copper",
-        "amount": 1500
+        "amount": 1200
       },
       {
         "item": "carbon",
@@ -63,7 +61,11 @@
       },
       {
         "item": "lead",
-        "amount": 1500
+        "amount": 1000
+      },
+      {
+        "item": "iron",
+        "amount": 800
       }
     ]
   }

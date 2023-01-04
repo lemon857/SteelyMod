@@ -71,12 +71,8 @@
   },
   "requirements": [
     {
-      "item": "copper",
-      "amount": 1000
-    },
-    {
       "item": "titanium",
-      "amount": 500
+      "amount": 300
     },
     {
       "item": "steel",

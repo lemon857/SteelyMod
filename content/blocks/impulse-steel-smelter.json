@@ -7,11 +7,11 @@
   "requirements": [
     {
       "item": "copper",
-      "amount": 1300
+      "amount": 130
     },
     {
       "item": "lead",
-      "amount": 800
+      "amount": 100
     },
     {
       "item": "titanium",
@@ -19,7 +19,7 @@
     },
     {
       "item": "iron",
-      "amount": 300
+      "amount": 215
     },
     {
       "item": "steel",
@@ -57,6 +57,7 @@
       "amount": 0.25
     }
   },
+  "craftEffect": "fireSmoke",
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,

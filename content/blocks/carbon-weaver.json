@@ -1,17 +1,18 @@
 {
   "type": "GenericCrafter",
   "name": "Углеродный отделитель",
-  "description": "Просто сделай это",
+  "description": "Просто сделай это если хочешь начать развитие в сталеварении",
   "health": 100,
   "size": 2,
+  "idleSound": "build",
   "requirements": [
     {
       "item": "copper",
-      "amount": 550
+      "amount": 155
     },
     {
       "item": "lead",
-      "amount": 800
+      "amount": 170
     },
     {
       "item": "titanium",
@@ -37,6 +38,7 @@
       "amount": 0.3
     }
   },
+  "craftEffect": "absorb",
   "updateEffect": "smeltsmoke",
   "category": "crafting",
   "idleSoundVolume": 0.5,

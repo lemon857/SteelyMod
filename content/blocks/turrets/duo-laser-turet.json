@@ -6,7 +6,7 @@
   "size": 1,
   "recoil": 5,
   "reload": 50,
-  "cooldown": 10,
+  "cooldown": 25,
   "range": 100,
   "ammoUseEffect": "none",
   "shootSound": "laserblast",
@@ -24,20 +24,20 @@
   },
   "requirements": [
     {
-      "item": "copper",
-      "amount": 1200
-    },
-    {
-      "item": "titanium",
-      "amount": 700
-    },
-    {
-      "item": "thorium",
+      "item": "graphite",
       "amount": 300
     },
     {
+      "item": "titanium",
+      "amount": 200
+    },
+    {
+      "item": "thorium",
+      "amount": 150
+    },
+    {
       "item": "carbon",
-      "amount": 500
+      "amount": 100
     }
   ],
   "category": "turret",
