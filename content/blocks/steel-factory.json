@@ -34,14 +34,14 @@
           "item": "pyratite",
           "amount": 5
         }
-      ]      
+      ]
     },
     "liquid": {
       "liquid": "molten-iron",
       "amount": 0.2
     }
   },
-  "updateEffect": "smeltsmoke",
+  "updateEffect": "flakExplosionBig",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
