@@ -67,7 +67,7 @@
     "amount": 1
   },
   "research": {
-    "parent": "foundry",
+    "parent": "steel-factory",
     "requirements": [
       {
         "item": "copper",

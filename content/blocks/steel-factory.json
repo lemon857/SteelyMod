@@ -31,18 +31,14 @@
     "items": {
       "items": [
         {
-          "item": "iron",
-          "amount": 3
-        },
-        {
           "item": "pyratite",
           "amount": 5
         }
-      ]
+      ]      
     },
     "liquid": {
-      "liquid": "slag",
-      "amount": 0.1
+      "liquid": "molten-iron",
+      "amount": 0.2
     }
   },
   "updateEffect": "smeltsmoke",

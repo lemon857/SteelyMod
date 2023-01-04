@@ -30,11 +30,21 @@
       "damage": 50,
       "reloadMultiplier": 0.9,
       "ammoMultiplier": 3,
-      "fragBullets": 4,
-      "fragBukket": {
-        "damage": 20,
-        "speed": 4,
-        "lifetime": 200
+      "fragBullets": 3,
+      "fragBullet": {
+        "type": "LiquidBulletType",
+        "liquid": "oil",
+        "lifetime": 2,
+        "speed": 2,
+        "fragBullets": 2,
+        "fragBullet": {
+          "type": "LiquidBulletType",
+          "liquid": "slag",
+          "lifetime": 1,
+          "speed": 3,
+          "damage": 2,
+          "status": "melting"
+        }
       },
       "fragBulletRadius": 8,
       "shootEffect": "shootSmall",

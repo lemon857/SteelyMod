@@ -42,7 +42,7 @@
     }
   },
   "craftEffect": "melting",
-  "updateEffect": "smeltsmoke",
+  "updateEffect": "none",
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,

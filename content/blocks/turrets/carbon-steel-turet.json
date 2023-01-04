@@ -16,13 +16,6 @@
       "damage": 15,
       "reloadMultiplier": 0.85,
       "ammoMultiplier": 3,
-      "fragBullets": 4,
-      "fragBukket": {
-        "damage": 20,
-        "speed": 4,
-        "lifetime": 200
-      },
-      "fragBulletRadius": 8,
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
       "width": 3,
@@ -35,13 +28,6 @@
       "damage": 25,
       "reloadMultiplier": 0.85,
       "ammoMultiplier": 3,
-      "fragBullets": 4,
-      "fragBukket": {
-        "damage": 20,
-        "speed": 4,
-        "lifetime": 200
-      },
-      "fragBulletRadius": 8,
       "shootEffect": "shootSmall",
       "smokeEffect": "shootSmallSmoke",
       "width": 3,

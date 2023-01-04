@@ -6,7 +6,7 @@
   "size": 1,
   "recoil": 5,
   "reload": 50,
-  "cooldown": 25,
+  "cooldown": 40,
   "range": 100,
   "ammoUseEffect": "none",
   "shootSound": "laserblast",
@@ -18,9 +18,9 @@
     "despawnEffect": "none",
     "damage": 30,
     "hitSize": 14,
-    "lifetime": 20,
-    "drawSize": 500,
-    "collidesAir": false
+    "lifetime": 15,
+    "drawSize": 400,
+    "collidesAir": true
   },
   "requirements": [
     {

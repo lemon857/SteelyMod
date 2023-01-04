@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
-  "name": "Жлезный пресс",
-  "description": "Это поможет тебе выплавить слиток железа",
+  "name": "Р–РµР»РµР·РЅС‹Р№ РїСЂРµСЃСЃ",
+  "description": "РџРѕРјРѕР¶РµС‚ С‚РµР±Рµ СЃРґРµР»Р°С‚СЊ СЃР»РёС‚РєРё Р¶РµР»РµР·Р°",
   "health": 100,
   "size": 2,
   "requirements": [
@@ -22,7 +22,7 @@
   "hasLiquids": true,
   "craftTime": 120,
   "consumes": {
-    "liquid": {
+    "liquids": {
       "liquids": [
         {
           "liquid": "molten-iron",
@@ -35,9 +35,10 @@
       ]
     }
   },
-  "craftEffect": "smelt",
-  "updateEffect": "smeltsmoke",
+  "craftEffect": "steam",
+  "updateEffect": "none",
   "category": "crafting",
+  "idleSound": "press",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
   "outputItem": {
@@ -45,7 +46,7 @@
     "amount": 2
   },
   "research": {
-    "parent": "phase-weaver",
+    "parent": "iron-smelter",
     "requirements": [
       {
         "item": "copper",
