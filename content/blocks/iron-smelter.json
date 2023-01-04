@@ -1,7 +1,7 @@
 {
   "type": "GenericCrafter",
   "name": "Плавильня железа",
-  "description": "Производнт железо",
+  "description": "Производит железо",
   "health": 100,
   "size": 2,
   "requirements": [

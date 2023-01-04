@@ -1,0 +1,14 @@
+{
+  "type": "liquid",
+  "name": "Тритий",
+  "description": "Очень редкий материал содержащийся в малых количествах в океанах. Применяется для термоядерного синтеза",
+  "color": "A5FF00",
+  "barColor": "A5FF00",
+  "lightColor": "A5FFFF",
+  "flammability": 0.1,
+  "temperature": 0.2,
+  "heatCapacity": 0.1,
+  "viscosity": 0.1,
+  "explosiveness": 0.8,
+  "research": "water"
+}

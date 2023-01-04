@@ -1,0 +1,65 @@
+{
+  "type": "GenericCrafter",
+  "name": "Водный разделитель",
+  "description": "Отделяет водород от воды, как побочный продукт получается тритий",
+  "health": 150,
+  "size": 3,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 250
+    },
+    {
+      "item": "iron",
+      "amount": 100
+    },
+    {
+      "item": "metaglass",
+      "amount": 200
+    }
+  ],
+  "hasItems": false,
+  "hasPower": true,
+  "hasLiquids": true,
+  "craftTime": 240,
+  "consumes": {
+    "power": 4,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "water",
+          "amount": 0.6
+        }
+      ]
+    }
+  },
+  "craftEffect": "steam",
+  "updateEffect": "none",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "outputLiquid": {
+    "liquid": "tritium",
+    "amount": 0.05
+  },
+  "research": {
+    "parent": "iron-smelter",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 1200
+      },
+      {
+        "item": "carbon",
+        "amount": 1000
+      },
+      {
+        "item": "lead",
+        "amount": 1000
+      },
+      {
+        "item": "iron",
+        "amount": 800
+      }
+    ]
+  }
+}

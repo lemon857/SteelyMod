@@ -1,0 +1,96 @@
+{
+  "type": "ImpactReactor",
+  "name": "Термоядерный реактор",
+  "description": "Производит очень много энергии, но и для запуска требует не мало",
+  "health": 1000,
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "plasmas": 4,
+  "warmupSpeed": 0.1,
+  "itemDuration": 60,
+  "explosionRadius": 50,
+  "explosionDamage": 2000,
+  "consumesPower": true,
+  "outputsPower": true,
+  "baseExplosiveness": 50,
+  "sync": true,
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 500
+    },
+    {
+      "item": "lead",
+      "amount": 600
+    },
+    {
+      "item": "metaglass",
+      "amount": 300
+    },
+    {
+      "item": "silicon",
+      "amount": 200
+    },
+    {
+      "item": "carbon-fiber",
+      "amount": 150
+    },
+    {
+      "item": "steel",
+      "amount": 50
+    },
+    {
+      "item": "impulse-steel",
+      "amount": 140
+    }
+  ],
+  "consumes": {
+    "power": 50,
+    "liquids": {
+      "liquids": [
+        {
+          "liquid": "cryofluid",
+          "amount": 0.25
+        },
+        {
+          "liquid": "tritium",
+          "amount": 0.9
+        }
+      ]
+    },
+    "items": {
+      "items": [
+        {
+          "item": "lead",
+          "amount": 1
+        }
+      ]
+    }
+
+  },
+  "powerProduction": 250,
+  "category": "power",
+  "research": {
+    "parent": "impact-reactor",
+    "requirements": [
+      {
+        "item": "copper",
+        "amount": 2500
+      },
+      {
+        "item": "carbon",
+        "amount": 1000
+      },
+      {
+        "item": "lead",
+        "amount": 2500
+      },
+      {
+        "item": "iron",
+        "amount": 500
+      }
+    ]
+  }
+}
